@@ -37,7 +37,7 @@
                           MKStringFromMapRect(options.mapRect),
                           options.region.center.latitude, options.region.center.longitude,
                           options.region.span.latitudeDelta, options.region.span.longitudeDelta,
-                          options.mapType];
+                          (int)options.mapType];
     }
     
     return self;
